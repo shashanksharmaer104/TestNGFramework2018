@@ -1,0 +1,6 @@
+com\frameworks\TestNGFramework2018\configs\BasePage.class
+com\frameworks\TestNGFramework2018\configs\BaseTest.class
+com\frameworks\TestNGFramework2018\logs\Log.class
+com\frameworks\TestNGFramework2018\pages\LoginPage.class
+com\frameworks\TestNGFramework2018\listeners\TestListener.class
+com\frameworks\TestNGFramework2018\tests\TestLoginPage.class

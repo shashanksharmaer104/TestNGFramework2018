@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login feature" duration-ms="9632" started-at="2018-07-21T12:42:08Z" finished-at="2018-07-21T12:42:18Z">
+    <groups>
+    </groups>
+    <test name="TestLogin" duration-ms="9632" started-at="2018-07-21T12:42:08Z" finished-at="2018-07-21T12:42:18Z">
+      <class name="com.frameworks.TestNGFramework2018.tests.TestLoginPage">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1]" name="beforeSuite" is-config="true" duration-ms="98" started-at="2018-07-21T12:42:08Z" finished-at="2018-07-21T12:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1]" name="beforeTest" is-config="true" duration-ms="3908" started-at="2018-07-21T12:42:08Z" finished-at="2018-07-21T12:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1]" name="beforeClass" is-config="true" duration-ms="82" started-at="2018-07-21T12:42:12Z" finished-at="2018-07-21T12:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1]" name="beforeMethod" is-config="true" duration-ms="391" started-at="2018-07-21T12:42:12Z" finished-at="2018-07-21T12:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.frameworks.TestNGFramework2018.tests.TestLoginPage.testLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1]" name="testLogin" duration-ms="4319" started-at="2018-07-21T12:42:12Z" finished-at="2018-07-21T12:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1]" name="afterMethod" is-config="true" duration-ms="5" started-at="2018-07-21T12:42:17Z" finished-at="2018-07-21T12:42:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TestLoginPage.testLogin()[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-21T12:42:17Z" finished-at="2018-07-21T12:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1]" name="afterTest" is-config="true" duration-ms="915" started-at="2018-07-21T12:42:17Z" finished-at="2018-07-21T12:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.frameworks.TestNGFramework2018.tests.TestLoginPage@271053e1]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-07-21T12:42:18Z" finished-at="2018-07-21T12:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.frameworks.TestNGFramework2018.tests.TestLoginPage -->
+    </test> <!-- TestLogin -->
+  </suite> <!-- Login feature -->
+</testng-results>

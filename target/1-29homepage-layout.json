@@ -1,0 +1,52 @@
+{
+  "testId" : "1-29homepage-layout",
+  "name" : "29homepage layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check homepage layout",
+      "status" : "error",
+      "time" : 1531768326216,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Home Page",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Shashank Sharma\\workspace\\TestNGFramework2018\\homepage.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Shashank Sharma\\workspace\\TestNGFramework2018\\homepage.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "height 45 px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Shashank Sharma\\workspace\\TestNGFramework2018\\homepage.gspec",
+              "lineNumber" : 19
+            },
+            "name" : "width 100px",
+            "errors" : [ "\"header\" width is 1167px instead of 100px" ],
+            "highlight" : [ "header" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "header" : {
+          "area" : [ 0, 0, 1167, 45 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

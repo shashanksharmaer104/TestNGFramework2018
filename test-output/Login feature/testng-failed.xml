@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login feature]">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="TestLogin(failed)">
+    <classes>
+      <class name="com.frameworks.TestNGFramework2018.tests.TestLoginPage">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="testLogin"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.frameworks.TestNGFramework2018.tests.TestLoginPage -->
+    </classes>
+  </test> <!-- TestLogin(failed) -->
+</suite> <!-- Failed suite [Login feature] -->

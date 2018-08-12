@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login feature">
+
+<parameter name="browser" value="Chrome"></parameter>
+
+  <test thread-count="5" name="TestLogin">
+    <classes>
+      <class name="com.frameworks.TestNGFramework2018.tests.TestLoginPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

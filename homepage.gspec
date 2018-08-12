@@ -1,0 +1,20 @@
+#Declaring objects with css and xpath locators
+@objects
+  header               css     div.fusion-secondary-header
+  sw-logo              xpath     //a[@class='fusion-logo-link']
+  #Navigation links are multi-line object type. Thus, we add * at the end of its decleration.
+  navigation-links-*   xpath   //ul[@id='menu-main']/li[not((contains(@id,'mobile-menu-item')))]
+  nav-menu             css     div.fusion-secondary-main-menu
+  follow-us-box        xpath   //div[contains(@class,'fusion-alert')][1]
+ 
+#Home Page Tag
+= Home Page =
+  #This is for Desktop
+   @on desktop
+       #Header properties
+       header:
+           #css background-color is "#a0ce4e"
+           css font-size is "13px"
+           height 45 px
+           width 100px
+           
